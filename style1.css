@@ -1,0 +1,335 @@
+body {
+    font-family: "Arial", sans-serif;
+    margin: 0;
+}
+
+/*Searchbar*/
+
+.topleft {
+    display: inline-flex;
+}
+
+.topleft img {
+    height: 30px;
+    padding: 15px;
+    width: auto;
+}
+
+#searchbar {
+    border: 1px solid lightgrey;
+    border-radius: 25px;
+    font-family: "Arial", sans-serif;
+    font-size: 1.01em;
+    height: 40px;
+    padding-left: 15px;
+    position: relative;
+    top: 8px;
+    width: 600px;
+}
+
+/*Account area*/
+
+.personal {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+#gricon {
+    display: inline-flex;
+    height: 30px;
+    overflow: hidden;
+    width: 30px;
+}
+
+#gricon img {
+    margin-left: -133px;
+    margin-top: -35px;
+}
+
+#account {
+    padding-left: 15px;
+}
+
+#account img {
+    border-radius: 50%;
+}
+
+/*Toolbar*/
+
+.row2 {
+    border-bottom: 1px solid #ddd;
+    width: 100%;
+}
+
+.row2 ul {
+    margin: 20px 0 10px 100px;
+}
+
+.row2 li {
+    display: inline-flex;
+    font-size: 0.8em;
+    padding-right: 15px;
+}
+
+.row2 img {
+    height: 14px;
+    width: auto;
+}
+
+.row2 a {
+    color: #444;
+    text-decoration: none;
+}
+
+#tutti {
+    border-bottom: 3px solid #1A73E8;
+    display: inline-flex;
+}
+
+/*Focus*/
+
+main {
+    margin-left: 140px;
+    width: 46%;
+}
+
+main > p {
+    color: #666;
+    font-size: 0.8em;
+    text-indent: 10px;
+}
+
+#focus {
+    border: 1px solid #ddd;
+    border-radius: 9px;
+    padding-left: 15px; 
+    padding-right: 15px;
+    left: 5px;
+    width: 600px;
+}
+
+#focus > p {
+    line-height: 1.4em;
+}
+
+#focus h3 {
+    line-height: 0.03em;
+    margin-top: 30px;
+}
+
+h3 a {
+    color: rgb(26, 13, 171);
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.url p {
+    color: forestgreen;
+    font-size: 0.85em;
+    margin-bottom: 20px;
+}
+
+#about {
+    display: inline-flex;
+    font-size: 0.75em;
+    float: right;
+    margin-top: 3px;
+}
+
+#about a {
+    color: #666;
+    text-decoration: none;
+}
+
+#about li {
+    list-style: none;
+    margin-left: 20px;
+}
+
+/*Results*/
+
+main ol {
+    list-style: none;
+    padding-left: 15px;
+}
+
+h3 {
+    margin: 0;
+}
+
+.undertitle {
+    display: inline-flex;
+    margin: 4px 0;
+    padding: 0;
+}
+
+.undertitle a {
+    font-size: 0.85em;
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+#url {
+    color: forestgreen;
+}
+
+#url::after {
+    content: " ⯆ ";
+    font-size: 0.7em;
+}
+
+#description {
+    color: #444;
+    font-size: 0.8em;
+    line-height: 1.5em;
+    padding: 0;
+    margin: 0 0 20px 0;
+}
+
+#time {
+    color: #777;
+}
+
+#time::after {
+    color: #444;
+    content: " - "
+}
+
+/*Correlated Links*/
+
+#correl {
+    padding: 15px 0 30px 15px;
+}
+
+#correl > h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    padding-bottom: 20px;
+}
+
+#correl > a {
+    color: rgb(26, 13, 171);
+    font-size: 0.9em;
+    font-weight: bold;
+    line-height: 1.7em;
+    text-decoration: none;
+}
+
+/*GOOOGLE*/
+
+.goooogle {
+    border: 2px dotted transparent;
+    display: inline-flex;
+    margin: 0 25%;
+}
+
+#page1, #pagex {
+    align-items: flex-start;
+}
+
+#page1 {
+    border: 2px solid transparent;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+#page1 img {
+    margin-left: -25px;
+    margin-bottom: -380px;
+    margin-right: -95px;
+}
+
+figcaption {
+    position: absolute;
+    padding-top: 38px;
+    font-size: 0.8em;
+}
+
+#page1 figcaption {
+    padding-left: 34px;
+    padding-top: 37px;
+}
+
+#pagex figcaption {
+    padding-left: 5px;
+}
+
+figcaption a {
+    color:#4285f4;
+    text-align: center;
+    text-decoration: none;
+}
+
+#pagex {
+    border: 1px solid transparent;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+#pagex img {
+    margin-top: 1px;
+    margin-bottom: -380px;
+    margin-left: -75px;
+    margin-right: -74px;
+}
+
+#page10 {
+    padding-left: 0 !important;
+}
+
+#pagend {
+    border: 1px solid transparent;
+    display: inline-flex;
+    overflow: hidden;
+}
+
+#pagend img {
+    margin-bottom: -365px;
+    margin-left: -95px;
+    margin-top: 1px;
+}
+
+#avanti {
+    padding-left: 45px;
+}
+
+/*Footer*/
+
+footer {
+    background-color: rgb(228, 228, 228);
+    border-top: 1px solid #ddd;
+    margin: 0;
+    padding: 0;
+    width: 100%; 
+}
+
+#country {
+    font-size: 1.1em;
+    padding-bottom: 5px;
+}
+
+.row-1, .row-2 {
+    color: #444;
+    display: inline-flex;
+    font-size: 0.8em;
+    list-style: none;
+    padding-left: 140px;
+}
+
+.row-1 li, .row-2 li {
+    padding-right: 15px;
+}
+
+.row-1 a, .row-2 a {
+    color: #444;
+    text-decoration: none;
+}
+
+hr {
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid #ddd;
+    border-bottom: 0
+}
+
